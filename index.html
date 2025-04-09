@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClawLite - 猫爪动态补光App</title>
+    <meta name="description" content="ClawLite是一款创新的自拍补光应用，采用猫爪造型的光效来提升您的自拍体验。无论您身处地铁、餐厅、电影院等各种光线不足的环境，ClawLite都能为您提供优质的补光效果。">
+    <link rel="icon" href="../web/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="../assets/images/cat.png" alt="ClawLite Logo">
+                <span>ClawLite</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">功能</a></li>
+                <li><a href="#scenes">场景</a></li>
+                <li><a href="#download">下载</a></li>
+                <li><a href="#about">关于我们</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>ClawLite</h1>
+                <h2>猫爪动态补光App</h2>
+                <p>创新的自拍补光应用，让您在任何光线环境下都能拍出完美照片</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">立即下载</a>
+                    <a href="#features" class="btn btn-secondary">了解更多</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-mockup.svg" alt="ClawLite App 展示">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>猫爪造型光效</h3>
+                    <p>全屏覆盖式补光，模拟专业摄影补光效果，动态光线随环境亮度自动调节</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>多种肤色预设</h3>
+                    <p>少女感、磨皮感、冷白皮等多种肤色预设，一键切换，满足不同场景需求</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>精确亮度控制</h3>
+                    <p>通过直观的滑块界面精确调节补光亮度，轻松应对各种光线环境</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>动画效果控制</h3>
+                    <p>调整光效大小和动画效果，创造个性化的补光体验</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="scenes" class="scenes">
+        <div class="container">
+            <h2 class="section-title">肤色预设与光效控制</h2>
+            <div class="scenes-slider">
+                <div class="scene-card">
+                    <div class="scene-image" style="background-color: #ffb6c1;">
+                        <div class="scene-overlay"></div>
+                    </div>
+                    <h3>少女感</h3>
+                    <p>粉嫩色调，打造甜美气质</p>
+                </div>
+                <div class="scene-card">
+                    <div class="scene-image" style="background-color: #9b59b6;">
+                        <div class="scene-overlay"></div>
+                    </div>
+                    <h3>磨皮感</h3>
+                    <p>紫色光效，提升肤质质感</p>
+                </div>
+                <div class="scene-card">
+                    <div class="scene-image" style="background-color: #a0e6ff;">
+                        <div class="scene-overlay"></div>
+                    </div>
+                    <h3>冷白皮</h3>
+                    <p>冷色调光效，打造清透肌肤</p>
+                </div>
+                <div class="scene-card">
+                    <div class="scene-image" style="background: linear-gradient(to right, #ff0000, #ff9900, #ffff00, #00ff00, #00ffff, #0000ff, #9900ff, #ff00ff);">
+                        <div class="scene-overlay"></div>
+                    </div>
+                    <h3>自定义颜色</h3>
+                    <p>通过色彩选择器自由调节光效颜色</p>
+                </div>
+            </div>
+            <div class="scenes-nav">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="control-features">
+        <div class="container">
+            <h2 class="section-title">精确控制</h2>
+            <div class="control-grid">
+                <div class="control-item">
+                    <div class="control-image">
+                        <div class="control-slider brightness-slider">
+                            <div class="slider-track"></div>
+                            <div class="slider-fill"></div>
+                            <div class="slider-handle"></div>
+                        </div>
+                        <div class="control-label">亮度</div>
+                    </div>
+                    <div class="control-desc">
+                        <h3>亮度调节</h3>
+                        <p>通过直观的滑块界面精确调节补光亮度，从柔和到明亮，满足各种环境需求</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-image">
+                        <div class="control-slider size-slider">
+                            <div class="slider-track"></div>
+                            <div class="slider-fill"></div>
+                            <div class="slider-handle"></div>
+                        </div>
+                        <div class="control-label">大小</div>
+                    </div>
+                    <div class="control-desc">
+                        <h3>动画大小控制</h3>
+                        <p>调整光效大小，从细微点缀到全屏覆盖，创造个性化的补光效果</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="control-image">
+                        <div class="color-wheel">
+                            <div class="color-handle"></div>
+                        </div>
+                    </div>
+                    <div class="control-desc">
+                        <h3>颜色选择器</h3>
+                        <p>通过彩色滑块自由选择光效颜色，满足不同场景和个人喜好</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-features">
+        <div class="container">
+            <h2 class="section-title">技术特点</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>跨平台兼容</h3>
+                    <p>采用Flutter框架开发，实现iOS和Android双平台兼容</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-bolt"></i>
+                    <h3>高性能光效</h3>
+                    <p>优化的光效渲染引擎，即使在低端设备上也能流畅运行，低功耗设计</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>精确色彩控制</h3>
+                    <p>全光谱色彩选择器，支持无级调色，满足各种肤色需求</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-star"></i>
+                    <h3>多种光效形状</h3>
+                    <p>包括猫爪、星形等多种光效形状，满足不同场景需求</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">立即下载</h2>
+            <p class="download-desc">在各大应用商店搜索"ClawLite"或点击下方按钮下载</p>
+            <div class="download-buttons">
+                <a href="https://github.com/ablly/ClaLite" class="download-btn">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="download-btn">
+                    <i class="fab fa-android"></i>
+                    <span>Android</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我们</h2>
+            <p class="about-desc">ClawLite由一支热爱创新的团队开发，致力于为用户提供高品质的移动应用体验。我们专注于解决用户在日常生活中遇到的实际问题，通过技术创新提升用户体验。</p>
+            <div class="contact-info">
+                <h3>联系我们</h3>
+                <p>如有任何问题或建议，请通过以下方式联系我们：</p>
+                <a href="mailto:support@clawlite.app" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    3533912007@qq.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../assets/images/cat.png" alt="ClawLite Logo">
+                    <span>ClawLite</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>导航</h4>
+                        <ul>
+                            <li><a href="#features">功能</a></li>
+                            <li><a href="#scenes">场景</a></li>
+                            <li><a href="#download">下载</a></li>
+                            <li><a href="#about">关于我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>法律</h4>
+                        <ul>
+                            <li><a href="#">隐私政策</a></li>
+                            <li><a href="#">使用条款</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>关注我们</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-weixin"></i></a>
+                            <a href="#"><i class="fab fa-weibo"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ClawLite. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
